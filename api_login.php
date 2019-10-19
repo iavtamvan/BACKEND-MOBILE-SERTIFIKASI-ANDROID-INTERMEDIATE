@@ -8,10 +8,10 @@
 
 include "config.php";
 
-if ($_GET){
+if ($_POST){
 
-    $username = $_GET['username'];
-    $password = $_GET['password'];
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
     $sql = mysqli_query($db, "Select * from akun where username = '$username' && password = '$password'");
 
