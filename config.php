@@ -2,7 +2,7 @@
 
 $server = "localhost";
 $user = "root";
-$password = "";
+$password = "12345678";
 $nama_database = "mobile_lsp";
 
 $db = mysqli_connect($server, $user, $password, $nama_database);

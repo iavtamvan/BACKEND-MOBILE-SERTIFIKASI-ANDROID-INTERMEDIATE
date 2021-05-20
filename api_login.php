@@ -17,11 +17,11 @@ if ($_POST){
 
     if ($sql) {
         $response["error"] = false;
-        $response["error_msg"] = "Berhasil Login";
+        $response["error_msg"] = "Login Sukses";
         echo json_encode($response);
     } else{
         $response["error"] = false;
-        $response["error_msg"] = "Gagal Mengirim";
+        $response["error_msg"] = "Login Gagal";
         echo json_encode($response);
     }
 

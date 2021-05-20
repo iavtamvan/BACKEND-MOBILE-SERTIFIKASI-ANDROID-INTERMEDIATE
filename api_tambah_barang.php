@@ -15,11 +15,12 @@ if ($_POST) {
     $deskripsi_barang = $_POST['deskripsi_barang'];
     $harga_barang = $_POST['harga_barang'];
     $stok_barang = $_POST['stok_barang'];
+    $alamat = $_POST['alamat'];
 
 
     $sql = "INSERT INTO barang
-(nama_barang, image_barang, deskripsi_barang, harga_barang, stok_barang)
-VALUE ('$nama_barang', '$image_barang', '$deskripsi_barang', '$harga_barang', '$stok_barang')";
+(nama_barang, image_barang, deskripsi_barang, harga_barang, stok_barang, alamat)
+VALUE ('$nama_barang', '$image_barang', '$deskripsi_barang', '$harga_barang', '$stok_barang', '$alamat')";
 
     $query = mysqli_query($db, $sql);
     if ($query){
