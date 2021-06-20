@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b76743-f6f6-4d07-816d-ff5e42bb86c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/api_login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_tambah_barang.php" beforeDir="false" afterPath="$PROJECT_DIR$/api_tambah_barang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +61,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -85,7 +83,9 @@
       <workItem from="1560881837292" duration="1737000" />
       <workItem from="1562501554482" duration="2496000" />
       <workItem from="1621483843010" duration="616000" />
-      <workItem from="1621484614660" duration="1377000" />
+      <workItem from="1621484614660" duration="1680000" />
+      <workItem from="1622532164573" duration="227000" />
+      <workItem from="1624158515329" duration="826000" />
     </task>
     <servers />
   </component>

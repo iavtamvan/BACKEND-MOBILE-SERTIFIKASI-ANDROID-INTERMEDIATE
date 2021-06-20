@@ -14,8 +14,9 @@ if ($_POST){
     $password = $_POST['password'];
 
     $sql = mysqli_query($db, "Select * from akun where username = '$username' && password = '$password'");
+    $num = mysqli_num_rows($sql);
 
-    if ($sql) {
+    if ($num > 0) {
         $response["error"] = false;
         $response["error_msg"] = "Login Sukses";
         echo json_encode($response);
